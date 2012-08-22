@@ -37,4 +37,8 @@ man "anything" - manual
 q - quit manual
 vim "filename" - edit file
 vim less - view file w/o editing
-
+dw - delete word "must be first letter of word to be deleted
+d$ - delete to end of line
+u - undo
+de - delete to end of word including last character
+dd - delete line
