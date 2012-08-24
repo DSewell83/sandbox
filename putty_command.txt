@@ -1,44 +1,9 @@
 putty command list
 
-tmux - terminal multiplexer
+tmuxt - terminal multiplexer
 tmux a - reconnect session
 ls - list directories
-cd - change dir
-cd ~ - return to home dir
+cd - change directories
+cd - return to home directory
 mkdir - create dir
-=================
-github command list
 
-git clone url - copy user's repository
-git add . - adds all current dir
-git commit - add commit msg to changes
-git push origin master - push to github
-
-vim command list
-
-h - left
-j - down
-k - up
-l - right
-i - insert mode "notepad"
-esc - command mode
-ZZ or :wq - save/quit
-:q! - quit and discard changes
-:q - quit
-ctrl+a % - create vertical window
-ctrl+a " - create horizontal window
-ctrl+a o - switch window
-ctrl+a c - new tmux window
-ctrl+a n - switch next window
-ctrl+a p - switch previous window
-ctrl+a number - switch to numbered window
-ctrl+a arrow key - directional switch between windows
-man "anything" - manual
-q - quit manual
-vim "filename" - edit file
-vim less - view file w/o editing
-dw - delete word "must be first letter of word to be deleted
-d$ - delete to end of line
-u - undo
-de - delete to end of word including last character
-dd - delete line

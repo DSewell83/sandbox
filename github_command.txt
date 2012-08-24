@@ -4,4 +4,5 @@ git clone url - copy user's repository
 git add . - adds all current dir
 git commit - add commit msg to changes
 git push origin master - push to github
+git commit -m "describe changes"
 
