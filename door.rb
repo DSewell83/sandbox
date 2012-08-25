@@ -2,14 +2,17 @@ class Door
         attr_accessor :color
 	attr_accessor :open
         attr_accessor :wet
-	def open_door
+	
+        def open_door
 		self.open = true
 		p "The door is open"
 	end
+
 	def close_door
 		self.open = false
 		p "The door is closed"
 	end
+
 	def is_open?
 		if self.open == true
 			p "The door is already opened"
@@ -17,9 +20,11 @@ class Door
 			p "The door is not opened"
 		end
         end
+        
         def dry
               self.wet = false
         end
+        
         def paint(blue)
                 if self.is_open
                     self.color = blue
@@ -28,6 +33,7 @@ class Door
                         p "open the door before painting"
                 end
         end
+        
         def close_door
                 if (self.wet == true)
                         p "please don't close wet doors"
