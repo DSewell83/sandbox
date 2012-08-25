@@ -1,5 +1,7 @@
 class Door
+        attr_accessor :color
 	attr_accessor :open
+        attr_accessor :wet
 	def open_door
 		self.open = true
 		p "The door is open"
@@ -15,9 +17,6 @@ class Door
 			p "The door is not opened"
 		end
         end
-        attr_accessor :color
-        attr_accessor :wet
-
         def dry
               self.wet = false
         end
@@ -30,7 +29,7 @@ class Door
                 end
         end
         def close_door
-                if (door.wet == true)
+                if (self.wet == true)
                         p "please don't close wet doors"
                 else
                   #open/close door code blocks here
