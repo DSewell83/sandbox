@@ -49,8 +49,6 @@ class Door
         def close_door
                    self.open = false
                         p "The door is closed"
-                  #front_door.paint ("blue") - method
-                  #front_door.dry - method
                   #front_door.paint( 3, :red ).dry( 30 ).close(
         end
 end
@@ -63,3 +61,5 @@ p "opening the door"
 front_door.open_door
 p "is it open?"
 front_door.is_open?
+front_door.paint("blue")
+front_door.dry
